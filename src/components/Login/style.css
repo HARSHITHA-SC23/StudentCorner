@@ -1,0 +1,25 @@
+.login {
+    /* background: linear-gradient(272deg, #5d4954, #ffd6a7); */
+    background-image: url("https://www.teahub.io/photos/full/16-168437_wallpaper-books-library-shelves-lighting-library-background-wallpaper.jpg");
+    background-size: 200% 200%;
+
+    animation: AnimationName 19s ease infinite;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login__logo {
+    object-fit: contain;
+    height: 50%;
+    margin: 2rem;
+    border-radius: 5%;
+  }
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

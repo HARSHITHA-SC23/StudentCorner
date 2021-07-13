@@ -1,0 +1,33 @@
+.amt {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 1px 2px 0 #102c58,
+    0 2px 6px 2px #102c58;
+    -webkit-border-radius: 0.5rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+  }
+  .amt__top {
+    display: flex;
+    align-items: center;
+  }
+  .amt__top > * {
+    margin-left: 10px;
+    color: white;
+  }
+  .amt__Cnt {
+    padding: 0.5rem 0;
+  }
+  .amt__txt {
+    margin: 10px 15px;
+    color: white;
+  }
+  .amt__img {
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+    margin-left: 10px;
+  }
+  a{
+    color: #ffffff;
+  }
